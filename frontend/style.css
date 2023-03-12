@@ -1,0 +1,53 @@
+.button-container {  /* direction, start color, end color */
+	padding: 1.5em;
+}
+
+.button-fancy {
+	background-color: #23b83c;
+	border: 2px solid #020353;
+	color: whitesmoke;
+	padding: 1em 1.5em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 3.5em;
+	display: inline-block;
+	width: 19.5%;
+	height: 350px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 8px 0 #000; /* h-offset v-offset blur spread color */
+}
+
+.lower-button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.lower-second-button {
+	background-color: #FF0000; /* Red */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.info {
+	margin: 0.5rem;
+	padding: 0.5rem 0.5rem;
+	text-align: center;
+}
+.msg_info {
+	display: inline-block;
+	padding: 0.5rem 0.5rem;
+	vertical-align: middle;
+}

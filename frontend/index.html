@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Poker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="shortcut icon" href="#">
+<body>
+    <h1 class = "info">Video Poker</h1>
+    <div class = "button-container">
+        <button id="card0" type="button"  class="button-fancy" onclick="turn_card('card0', 'Card', 'blue', 'red')"></button>
+        <button id="card1" type="button"  class="button-fancy" onclick="turn_card('card1', 'Card', 'blue', 'red')"></button>
+        <button id="card2" type="button"  class="button-fancy" onclick="turn_card('card2', 'Card', 'blue', 'red')"></button>
+        <button id="card3" type="button"  class="button-fancy" onclick="turn_card('card3', 'Card', 'blue', 'red')"></button>
+        <button id="card4" type="button"  class="button-fancy" onclick="turn_card('card4', 'Card', 'blue', 'red')"></button>
+    </div>
+
+    <button id="newGame" class="lower-button" onclick="deal_cards('http://localhost:5000/cards/')">Deal cards</button>
+    <button id="changeCards" class="lower-second-button" onclick="change_old_cards()">Change cards</button>
+
+    <div class = "info">
+        <h1 class="msg_info" id="msg"></h1>
+        <h1 class = "msg_info">Points:</h1>
+        <h1 class = "msg_info" id="points"></h1 >
+    </div>
+</body>
+<script src="scripts.js"
+></script>
+
+</html>
